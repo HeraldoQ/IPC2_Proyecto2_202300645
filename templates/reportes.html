@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+        }
+    </style>
+</head>
+<body>
+{% extends 'templates.html' %}
+
+{% block content %}
+<script>
+    document.title = "reportes";
+</script>
+
+
+
+
+    <img src="{{ url_for('static', filename='graph.png') }}" alt="Graph Image">
+{% endblock %}

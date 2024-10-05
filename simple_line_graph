@@ -1,0 +1,8 @@
+// Simple Line
+digraph {
+	L1 [label="Linea 1"]
+	L1 -> L2
+	L2 [label="Linea 2"]
+	L2 -> L3
+	L3 [label="Linea 3"]
+}

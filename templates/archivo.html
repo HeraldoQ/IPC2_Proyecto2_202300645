@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivo</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+            
+            
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+    </style>
+</head>
+{% extends 'templates.html' %}
+
+{% block content %}
+<script>
+    document.title = "Archivo";
+</script>
+    
+        <p style="font-size: 2em;">para archivo!</p>
+
+        <form action="/enviar" method="post" enctype="multipart/form-data">
+            <input type="file" name="archivo" id="archivo" style="font-size: 1.5em;">
+            <button type="submit" style="font-size: 1.5em;"> enviar</button>
+        </form>
+
+
+
+
+
+
+
+{% endblock %}

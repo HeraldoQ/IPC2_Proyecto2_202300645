@@ -1,0 +1,12 @@
+// Simple Graph
+digraph {
+	1 [label="Cuadro 1"]
+	1 -> 2
+	2 [label="Cuadro 2"]
+	2 -> 3
+	3 [label="Cuadro 3"]
+	3 -> 4
+	4 [label="Cuadro 4"]
+	4 -> 5
+	5 [label="Cuadro 5"]
+}

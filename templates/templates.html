@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li style="display: inline;"><button style="font-size: 1.2em; font-weight: bold; padding: 10px 20px;" onclick="location.href='/'">inicio</button></li>
+            <li style="display: inline;"><button style="font-size: 1.2em; font-weight: bold; padding: 10px 20px;" onclick="location.href='/archivo'">archivo</button></li>
+            <li style="display: inline;"><button style="font-size: 1.2em; font-weight: bold; padding: 10px 20px;" onclick="location.href='/reportes'">reportes</button></li> 
+            <li style="display: inline;"><button style="font-size: 1.2em; font-weight: bold; padding: 10px 20px;" onclick="location.href='/ayuda'">ayuda</button></li>
+        
+        </ul>
+
+    </nav>
+
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>
